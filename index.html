@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Math Methods in JS</title>
+</head>
+<body>
+
+    <!-- Problem 1: Positive Integer Math Operations -->
+    <h1>Positive Integer Math Operations</h1>
+    <input type="number" id="numberInput" placeholder="Enter a positive integer" />
+    <button onclick="calculateValues()">Calculate</button>
+    <p id="result"></p>
+
+    <!-- Problem 2: Negative Floating Point Math Operations -->
+    <h1>Negative Floating Point Math Operations</h1>
+    <input type="number" step="any" id="floatInput" placeholder="Enter a negative float" />
+    <button onclick="calculateFloatValues()">Calculate</button>
+    <p id="resultFloat"></p>
+
+    <!-- Problem 3: Absolute Value -->
+    <h1>Absolute Value</h1>
+    <input type="number" step="any" id="absInput" placeholder="Enter a number" />
+    <button onclick="showAbsoluteValue()">Show Absolute Value</button>
+    <p id="absResult"></p>
+
+    <!-- Problem 4: Dice Roll Simulation -->
+    <h1>Simulate Dice Roll</h1>
+    <button onclick="rollDice()">Roll Dice</button>
+    <p id="diceResult"></p>
+
+    <!-- Problem 5: Coin Toss Simulation -->
+    <h1>Simulate Coin Toss</h1>
+    <button onclick="tossCoin()">Toss Coin</button>
+    <p id="coinResult"></p>
+
+    <!-- Problem 6: Random Number Between 1 and 100 -->
+    <h1>Random Number Between 1 and 100</h1>
+    <button onclick="showRandomNumber()">Generate Random Number</button>
+    <p id="randomResult"></p>
+
+    <!-- Problem 7: Parse User Weight -->
+    <h1>Enter Your Weight</h1>
+    <input type="text" id="weightInput" placeholder="Enter your weight" />
+    <button onclick="showWeight()">Show Weight</button>
+    <p id="weightResult"></p>
+
+    <!-- Problem 8: Guess the Secret Number -->
+    <h1>Guess the Secret Number Between 1 and 10</h1>
+    <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="10" />
+    <button onclick="guessSecretNumber()">Guess</button>
+    <p id="guessResult"></p>
+
+    <script src="app.js"></script> <!-- External JavaScript file -->
+</body>
+</html>
